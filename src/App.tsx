@@ -12,6 +12,7 @@ import { useAuthStore } from "@/store/authStore";
 import HomePage from "./pages/HomePage";
 import DepartmentsPage from "./pages/DepartmentsPage";
 import DoctorsPage from "./pages/DoctorsPage";
+import ServicesPage from "./pages/ServicesPage";
 import AppointmentsPage from "./pages/AppointmentsPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
@@ -42,6 +43,7 @@ const App = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/departments" element={<DepartmentsPage />} />
             <Route path="/doctors" element={<DoctorsPage />} />
+            <Route path="/services" element={<ServicesPage />} />
             <Route path="/appointments" element={<AppointmentsPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
