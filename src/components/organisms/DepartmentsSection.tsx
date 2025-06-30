@@ -3,9 +3,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { 
   HeartIcon, 
-  BrainIcon, 
+  CpuChipIcon, 
   EyeIcon, 
-  BoneIcon,
+  WrenchScrewdriverIcon,
   SparklesIcon,
   UserGroupIcon
 } from '@heroicons/react/24/outline';
@@ -26,7 +26,7 @@ const DepartmentsSection: React.FC = () => {
       id: 2,
       name: 'Neurology',
       description: 'Expert neurological care for brain and nervous system',
-      icon: BrainIcon,
+      icon: CpuChipIcon,
       color: 'from-purple-500 to-indigo-500',
       patients: '3500+',
       specialists: '12'
@@ -44,7 +44,7 @@ const DepartmentsSection: React.FC = () => {
       id: 4,
       name: 'Orthopedics',
       description: 'Advanced bone and joint treatments and surgeries',
-      icon: BoneIcon,
+      icon: WrenchScrewdriverIcon,
       color: 'from-green-500 to-emerald-500',
       patients: '6000+',
       specialists: '20'
